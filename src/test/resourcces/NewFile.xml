@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.ITestListenerClass" />
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class name="testcases.RegisterTest">
+				<methods>
+					<include name="verifyRegisteringAnAccountWithMandatoryFields" />
+				</methods>
+			</class>
+		</classes>
+			</test> <!-- Test -->
+			<test name="test2">
+		<classes>
+			<class name="testcases.RegisterTest">
+				<methods>
+					<include name="verifyRegisteringAccountByProvidingAllFields" />
+				</methods>
+			</class>
+		</classes>
+			</test> <!-- Test -->
+			<test name="test3">
+		<classes>
+			<class name="testcases.RegisterTest">
+				<methods>
+					<include name="verifyRegisteringAccountWithExistingEmailAddress" />
+				</methods>
+			</class>
+		</classes>
+			</test> <!-- Test -->
+			<test name="test4">
+		<classes>
+			<class name="testcases.RegisterTest">
+				<methods>
+					<include name="verifyRegisteringAccountWithoutFillingAnyDetails" />
+				</methods>
+			</class>
+		</classes>
+			</test> <!-- Test -->
+		
+</suite> <!-- Suite -->
