@@ -9,7 +9,7 @@ Implemented Listeners, writing logs and Embedding Screenshots into Extent Report
 Running scripts from GitHub using Jenkins.
 
 
-Test results
+Test results(Extent reports)
 
 ![Screenshot (13778)](https://github.com/anirudh9110/EcommerceProj/assets/77932284/545b4d6a-1605-4468-a114-671a839e325c)
 
