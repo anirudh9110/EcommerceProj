@@ -14,3 +14,4 @@ Test results
 
 ![Screenshot (13776)](https://github.com/anirudh9110/EcommerceProj/assets/77932284/0a5577a1-3f57-4967-8d39-e65e8da42a55)
 
+![Screenshot (13779)](https://github.com/anirudh9110/EcommerceProj/assets/77932284/1048b8de-554a-46b5-a3a2-1e5e59e1b35d)
